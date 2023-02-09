@@ -1,0 +1,116 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+* {
+    background: #FFFAFA;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    margin-left: 30px;
+    padding-top: 30px;
+    width:8%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: brown;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder { color: brown; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url("chave.png.png"); 
+    background-repeat: no-repeat; 
+    border: none;
+    border-radius: 24px;
+    color: brown;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 100px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid brown;
+    border-radius: 24px;
+    color: brown;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid brown;
+    border-radius: 24px;
+    color: brown;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #495057;
+    font-size:18px;
+}
+
+
+
+
+h3 {
+	text-align: center;
+	padding: 20px 0;
+    font-size: 15px ;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
